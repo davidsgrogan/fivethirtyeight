@@ -1,6 +1,6 @@
 # fivethirtyeight 0.4.0
 
-* Added new and missing data sets:
+* Added new data sets:
     + By Meredith Manley: `ahca_polls`, `bachelorette`, `candy_rankings`, 
     `chess_transfers`, `generic_polllist`, `generic_topline`, `mlb_elo`, 
     `ratings`, `spi_global_rankings`, `spi_matches`, `tweets`
