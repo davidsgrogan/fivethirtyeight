@@ -15,7 +15,7 @@
   \item{grad_employed_fulltime_yearround}{Employed at least 50 weeks (WKW == 1) and at least 35 hours (WKHP >= 35)}
   \item{grad_unemployed}{Number unemployed (ESR == 3)}
   \item{grad_unemployment_rate}{Unemployed / (Unemployed + Employed)}
-  \item{grad_p25th}{25th percentile of earnigns}
+  \item{grad_p25th}{25th percentile of earnings}
   \item{grad_median}{Median earnings of full-time, year-round workers}
   \item{grad_p75th}{75th percentile of earnings}
   \item{nongrad_total}{Total number of people with major}

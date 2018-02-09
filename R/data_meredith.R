@@ -10,7 +10,7 @@
 #'   \item{end}{End date of the poll.}
 #'   \item{pollster}{The entity that conducts and collects information from the poll.}
 #'   \item{favor}{The number of affirmative responses to the question at the pollster.}
-#'   \item{oppose}{The number of negative reponses to the question at the pollster.}
+#'   \item{oppose}{The number of negative responses to the question at the pollster.}
 #'   \item{url}{The website associated with the polling question.}
 #'   \item{text}{The polling question asked at the pollster.}
 #' }
@@ -28,9 +28,9 @@
 #' Bachelorette / Bachelor
 #'
 #' The raw data behind the stories:
-#' "How To Spot A Front-Runner On The ‘Bachelor’ Or ‘Bachelorette’"
-#' \url{https://fivethirtyeight.com/features/the-bachelorette/}, "Rachel’s Season Is Fitting Neatly Into ‘Bachelorette’ History"
-#' \url{https://fivethirtyeight.com/features/rachels-season-is-fitting-neatly-into-bachelorette-history/}, and "Rachel Lindsay’s ‘Bachelorette’ Season, In Three Charts"
+#' "How To Spot A Front-Runner On The 'Bachelor' Or 'Bachelorette'"
+#' \url{https://fivethirtyeight.com/features/the-bachelorette/}, "Rachel's Season Is Fitting Neatly Into 'Bachelorette' History"
+#' \url{https://fivethirtyeight.com/features/rachels-season-is-fitting-neatly-into-bachelorette-history/}, and "Rachel Lindsay's 'Bachelorette' Season, In Three Charts"
 #' \url{https://fivethirtyeight.com/features/rachel-lindsays-bachelorette-season-in-three-charts/}.
 #'
 #' @format A data frame with 887 rows representing the Bachelorette and Bachelor contestants and 23 variables:
@@ -60,14 +60,14 @@
 #'   \item{dates_10}{Who was on which date in week 10.}
 #' }
 #' @details Eliminates connote either an elimination (starts with "E") or a rose
-#' (starts with "R"). Eliminations supercede roses. "E" connotes a standard
+#' (starts with "R"). Eliminations supersede roses. "E" connotes a standard
 #' elimination, typically at a rose ceremony. "EQ" means the contestant quits.
 #' "EF" means the contestant was fired by production. "ED" connotes a date
 #' elimination. "EU" connotes an unscheduled elimination, one that takes place
 #' at a time outside of a date or rose ceremony. "R" means the contestant
 #' received a rose. "R1" means the contestant got a first impression rose.
 #' "D1" means a one-on-one date, "D2" means a 2-on-1, "D3" means a 3-on-1
-#' group date, and so on. Weeks of the show are deliminated by rose
+#' group date, and so on. Weeks of the show are eliminated by rose
 #' ceremonies, and may not line up exactly with episodes.
 #' @source \url{http://bachelor-nation.wikia.com/wiki/Bachelor_Nation_Wikia}
 #' and then missing seasons were filled in by ABC and FiveThirtyEight staffers.
@@ -117,9 +117,9 @@
 #' @format A data frame with 932 rows representing international player transfers and 5 variables:
 #' \describe{
 #'   \item{url}{The corresponding website on the World Chess Federation page which details the transfers of a given year.}
-#'   \item{id}{An numeric identifier for the chess player who transfered.}
+#'   \item{id}{An numeric identifier for the chess player who transferred.}
 #'   \item{federation}{The current national federation of the chess player}
-#'   \item{form_fed}{The national federation from which the chress player has transfered.}
+#'   \item{form_fed}{The national federation from which the chess player has transferred.}
 #'   \item{transfer_date}{The date at which the transfer took place.}
 #' }
 #' @source World Chess Federation
@@ -191,7 +191,7 @@
 #' An Inconvenient Sequel
 #'
 #' The raw data behind the story
-#' "Al Gore’s New Movie Exposes The Big Flaw In Online Movie Ratings"
+#' "Al Gore's New Movie Exposes The Big Flaw In Online Movie Ratings"
 #' \url{https://fivethirtyeight.com/features/al-gores-new-movie-exposes-the-big-flaw-in-online-movie-ratings/}.
 #'
 #' @format A data frame with 80053 rows representing movie ratings and 27 variables:

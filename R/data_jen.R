@@ -306,7 +306,7 @@
 #' The raw data behind the story
 #' "The World's Favorite Donald Trump Tweets"
 #' \url{https://fivethirtyeight.com/features/the-worlds-favorite-donald-trump-tweets/}.
-#' Tweets posted on twitter by Donald Trump (@@realDonaldTrump). 
+#' Tweets posted on twitter by Donald Trump (@@realDonaldTrump).
 #' An analysis using this data was contributed by Adam Spannbauer as a package vignette at
 #' \url{http://fivethirtyeight-r.netlify.com/articles/trump_twitter.html}.
 #'
@@ -466,7 +466,7 @@
 #'   \item{mehs}{Mehs}
 #'   \item{league_average_gpct}{League-average goose percentage}
 #'   \item{ppf}{Pitcher park factor}
-#'   \item{replacement_gpct}{Replacement-level goose pecentage}
+#'   \item{replacement_gpct}{Replacement-level goose percentage}
 #'   \item{gwar}{Goose Wins Above Replacement}
 #'   \item{key_retro}{Retrosheet unique player identifier}
 #' }

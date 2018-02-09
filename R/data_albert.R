@@ -139,7 +139,7 @@
 #'   \item{wine_servings}{Servings of wine in average serving sizes per person}
 #'   \item{total_litres_of_pure_alcohol}{Total litres of pure alcohol per person}
 #' }
-#' @source World Health Organisation, Global Information System on Alcohol and Health (GISAH), 2010.
+#' @source World Health Organization, Global Information System on Alcohol and Health (GISAH), 2010.
 #' @examples
 #' # To convert data frame to tidy data (long) format, run:
 #' library(tidyverse)
@@ -366,7 +366,7 @@
 #'   \item{grad_employed_fulltime_yearround}{Employed at least 50 weeks (WKW == 1) and at least 35 hours (WKHP >= 35)}
 #'   \item{grad_unemployed}{Number unemployed (ESR == 3)}
 #'   \item{grad_unemployment_rate}{Unemployed / (Unemployed + Employed)}
-#'   \item{grad_p25th}{25th percentile of earnigns}
+#'   \item{grad_p25th}{25th percentile of earnings}
 #'   \item{grad_median}{Median earnings of full-time, year-round workers}
 #'   \item{grad_p75th}{75th percentile of earnings}
 #'   \item{nongrad_total}{Total number of people with major}
@@ -545,7 +545,7 @@
 #'   \item{group}{A larger group designation for the occupation. For instance, us senators, us presidents, and former presidents are all under "politicians"}
 #'   \item{raw_guest_list}{The person or list of people who appeared on the show, according to Wikipedia. The GoogleKnowlege_Occupation only refers to one of them in a given row.}
 #' }
-#' @source Google Knowlege Graph, The Daily Show clip library, Wikipedia.
+#' @source Google Knowledge Graph, The Daily Show clip library, Wikipedia.
 "daily_show_guests"
 
 
