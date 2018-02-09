@@ -482,7 +482,7 @@
 #'   \item{care_data}{How much, if at all, do you care about the debate over the use of the word "data" as a singular or plural noun?}
 #'   \item{care_proper_grammar}{In your opinion, how important or unimportant is proper use of grammar?}
 #' }
-#' @source See \url{https://github.com/fivethirtyeight/data/tree/master/comma-survey-data}.
+#' @source See \url{https://github.com/fivethirtyeight/data/tree/master/comma-survey}.
 "comma_survey"
 
 

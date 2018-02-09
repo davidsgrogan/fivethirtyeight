@@ -1,4 +1,4 @@
-# fivethirtyeight 0.3.0.9000
+# fivethirtyeight 0.4.0
 
 * Added new and missing data sets:
     + By Meredith Manley: `ahca_polls`, `bachelorette`, `candy_rankings`, 
@@ -13,6 +13,13 @@
 * Package website now at <http://fivethirtyeight-r.netlify.com/>
 * Converted all ordinal categorical variables to `factor(..., ordered = TRUE)`.
 Ex: `bechdel$clean_test`
+* Vignette notes:
+    + Added a vignette that has a link to all user-contributed vignettes, which 
+    areonly available on development version of package and on GitHub due to 
+    CRAN package size restrictions.
+    + For all datasets that have a user contributed vignette, add a link to it 
+    in the corresponding help/roxygen code file.
+* Added `CITATION`
 
 
 # fivethirtyeight 0.3.0
