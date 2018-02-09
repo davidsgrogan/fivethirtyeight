@@ -339,7 +339,7 @@
 #'   \item{employed_fulltime_yearround}{Employed at least 50 weeks (WKW == 1) and at least 35 hours (WKHP >= 35)}
 #'   \item{unemployed}{Number unemployed (ESR == 3)}
 #'   \item{unemployment_rate}{Unemployed / (Unemployed + Employed)}
-#'   \item{p25th}{25th percentile of earnigns}
+#'   \item{p25th}{25th percentile of earnings}
 #'   \item{median}{Median earnings of full-time, year-round workers}
 #'   \item{p75th}{75th percentile of earnings}
 #' }
@@ -374,7 +374,7 @@
 #'   \item{nongrad_employed_fulltime_yearround}{Employed at least 50 weeks (WKW == 1) and at least 35 hours (WKHP >= 35)}
 #'   \item{nongrad_unemployed}{Number unemployed (ESR == 3)}
 #'   \item{nongrad_unemployment_rate}{Unemployed / (Unemployed + Employed)}
-#'   \item{nongrad_p25th}{25th percentile of earnigns}
+#'   \item{nongrad_p25th}{25th percentile of earnings}
 #'   \item{nongrad_median}{Median earnings of full-time, year-round workers}
 #'   \item{nongrad_p75th}{75th percentile of earnings}
 #'   \item{grad_share}{grad_total / (grad_total + nongrad_total)}
@@ -409,7 +409,7 @@
 #'   \item{employed_fulltime_yearround}{Employed at least 50 weeks (WKW == 1) and at least 35 hours (WKHP >= 35)}
 #'   \item{unemployed}{Number unemployed (ESR == 3)}
 #'   \item{unemployment_rate}{Unemployed / (Unemployed + Employed)}
-#'   \item{p25th}{25th percentile of earnigns}
+#'   \item{p25th}{25th percentile of earnings}
 #'   \item{median}{Median earnings of full-time, year-round workers}
 #'   \item{p75th}{75th percentile of earnings}
 #'   \item{college_jobs}{Number with job requiring a college degree}
@@ -543,7 +543,7 @@
 #'   \item{google_knowledge_occupation}{Their occupation or office, according to Google's Knowledge Graph or, if they're not in there, how Stewart introduced them on the program.}
 #'   \item{show}{Air date of episode. Not unique, as some shows had more than one guest}
 #'   \item{group}{A larger group designation for the occupation. For instance, us senators, us presidents, and former presidents are all under "politicians"}
-#'   \item{raw_guest_list}{The person or list of people who appeared on the show, according to Wikipedia. The GoogleKnowlege_Occupation only refers to one of them in a given row.}
+#'   \item{raw_guest_list}{The person or list of people who appeared on the show, according to Wikipedia. The GoogleKnowledge_Occupation only refers to one of them in a given row.}
 #' }
 #' @source Google Knowledge Graph, The Daily Show clip library, Wikipedia.
 "daily_show_guests"

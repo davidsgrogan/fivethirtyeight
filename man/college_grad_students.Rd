@@ -23,7 +23,7 @@
   \item{nongrad_employed_fulltime_yearround}{Employed at least 50 weeks (WKW == 1) and at least 35 hours (WKHP >= 35)}
   \item{nongrad_unemployed}{Number unemployed (ESR == 3)}
   \item{nongrad_unemployment_rate}{Unemployed / (Unemployed + Employed)}
-  \item{nongrad_p25th}{25th percentile of earnigns}
+  \item{nongrad_p25th}{25th percentile of earnings}
   \item{nongrad_median}{Median earnings of full-time, year-round workers}
   \item{nongrad_p75th}{75th percentile of earnings}
   \item{grad_share}{grad_total / (grad_total + nongrad_total)}

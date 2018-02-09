@@ -522,7 +522,7 @@
 #' \item{philippines}{The percentage of people from the Philippines who answered the poll question positively}
 #' \item{south_korea}{The percentage of people from South Korea who answered the poll question positively}
 #' \item{vietnam}{The percentage of people from Vietnam who answered the poll question positively}
-#' \item{israel}{The percentage of people from Isreal who answered the poll question positively}
+#' \item{israel}{The percentage of people from Israel who answered the poll question positively}
 #' \item{jordan}{The percentage of people from Jordan who answered the poll question positively}
 #' \item{lebanon}{The percentage of people from Lebanon who answered the poll question positively}
 #' \item{tunisia}{The percentage of people from Tunisia who answered the poll question positively}
