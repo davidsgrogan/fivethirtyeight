@@ -159,6 +159,8 @@
 #' The raw data behind the story
 #' "'Straight Outta Compton' Is The Rare Biopic Not About White Dudes"
 #' \url{https://fivethirtyeight.com/features/straight-outta-compton-is-the-rare-biopic-not-about-white-dudes/}.
+#' An analysis using this data was contributed by Pradeep Adhokshaja as a package vignette at
+#' \url{http://fivethirtyeight-r.netlify.com/articles/biopics.html}.
 #'
 #' @format A data frame with 761 rows representing movies and 14 variables:
 #' \describe{
@@ -187,6 +189,8 @@
 #' The raw data behind the story
 #' "A Statistical Analysis of the Work of Bob Ross"
 #' \url{https://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/}.
+#' An analysis using this data was contributed by Jonathan Bouchet as a package vignette at
+#' \url{http://fivethirtyeight-r.netlify.com/articles/bob_ross.html}.
 #'
 #' @format A data frame with 403 rows representing episodes and 71 variables:
 #' \describe{
@@ -424,6 +428,8 @@
 #' The raw data behind the story
 #' "Comic Books Are Still Made By Men, For Men And About Men"
 #' \url{https://fivethirtyeight.com/features/women-in-comic-books/}.
+#' An analysis using this data was contributed by Jonathan Bouchet as a package vignette at
+#' \url{http://fivethirtyeight-r.netlify.com/articles/comics_gender.html}.
 #'
 #' @format A data frame with 23272 rows representing characters and 16 variables:
 #' \describe{
