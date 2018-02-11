@@ -13,9 +13,9 @@
     `trumpworld_issues`, `trumpworld_polls`, `twitter_presidents`, `undefeated`
 * Note for now `mayweather_mcgregor_tweets`, `mlb_elo`, `nba_carmelo`,
 `nfl_elo`, `senators`, only include the first 10 rows of the data because of R
-package file size restrictions (< 5MB tarballs); code to download the entire
-dataset are included in help files. We hope to include full versions of these
-datasets in v0.5.0 of package using the `drat` package.
+package file size restrictions (< 5MB tarballs); code to download/process the
+entire dataset are included in help files. We hope to include full versions of
+these datasets in v0.5.0 of package using the `drat` package.
 * Converted all ordinal categorical variables to `factor(..., ordered = TRUE)`.
 Ex: `bechdel$clean_test`
 * Vignette notes:
