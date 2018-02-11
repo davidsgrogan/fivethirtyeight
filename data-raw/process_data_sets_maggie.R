@@ -22,7 +22,8 @@ nfl_elo <- read_csv("https://projects.fivethirtyeight.com/nfl-api/nfl_elo.csv") 
   mutate(
     team1 = as.factor(team1),
     team2 = as.factor(team2),
-    neutral = ifelse(neutral == 1, TRUE, FALSE))
+    neutral = ifelse(neutral == 1, TRUE, FALSE)) %>%
+  slice(1:10)
 devtools::use_data(nfl_elo, overwrite = TRUE)
 
 

@@ -132,7 +132,8 @@ mayweather_mcgregor_tweets <- read_csv("data-raw/mayweather-mcgregor/tweets.csv"
     emojis = as.logical(emojis),
     retweeted = as.logical(retweeted),
     id = as.character(id)
-  )
+  ) %>%
+  slice(1:10)
 devtools::use_data(mayweather_mcgregor_tweets, overwrite = TRUE)
 
 
@@ -144,7 +145,7 @@ mlb_elo <- read_csv("https://projects.fivethirtyeight.com/mlb-api/mlb_elo.csv") 
     playoff = ifelse(playoff == "<NA>", NA, playoff),
     neutral = as.logical(neutral)
   ) %>%
-  slice(1:100)
+  slice(1:10)
 devtools::use_data(mlb_elo, overwrite = TRUE)
 
 
